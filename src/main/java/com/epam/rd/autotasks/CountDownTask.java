@@ -4,7 +4,7 @@ public class CountDownTask implements Task{
     private int initialValue;
     public CountDownTask(int value) {
         initialValue = Math.max(value, 0);
-        if (value == 0){isFinished();}
+        if (value == 0){ isFinished(); }
     }
 
     public int getValue() { return initialValue; }
